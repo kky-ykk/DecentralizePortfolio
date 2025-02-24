@@ -1,8 +1,31 @@
-# React + Vite
+# Decentralized Portfolio  (        <a href="https://dcentport.netlify.app"> Try Out </a> )
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A decentralized portfolio application showcasing personal information stored on the Ethereum blockchain. The smart contract is developed in Solidity, deployed on the Sepolia testnet using Remix IDE, and the frontend is built with React.js and hosted on Netlify.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Smart Contract**: Manages and stores personal data securely on the Ethereum blockchain.
+- **Frontend**: Interacts with the smart contract, displaying portfolio information dynamically.
+- **Deployment**: Smart contract deployed on Sepolia testnet; frontend hosted on Netlify for seamless access.
+
+## Technologies Used
+
+- **Solidity**: For writing the Ethereum smart contract.
+- **Remix IDE**: To develop and deploy the smart contract.
+- **Sepolia Testnet**: Ethereum test network for contract deployment.
+- **React.js**: Frontend library for building the user interface.
+- **Netlify**: Hosting platform for deploying the React application.
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed.
+- **MetaMask**: Browser extension for Ethereum wallet integration.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/decentralized-portfolio.git
+   cd decentralized-portfolio
